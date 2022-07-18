@@ -31,10 +31,16 @@ const C9 = () => <C10 />;
 
 function C10() {
   const data = useContext (NasaContext);
-  console.log(data);
+  // console.log(data);
   return (
     <div>
       <h1>C10 components</h1>
+      <h2>x:{data.x}</h2>
+      <h2>y:{data.y}</h2>
+      <h2>z:{data.z}</h2>
+      <h2>a:{data.a}</h2>
+      <h2>b:{data.b}</h2>
+
     </div>
   );
 }
