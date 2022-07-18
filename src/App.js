@@ -30,7 +30,7 @@ const C8 = () => <C9 />;
 const C9 = () => <C10 />;
 
 function C10() {
-  const data = useContext(NasaContext);
+  const data = useContext (NasaContext);
   console.log(data);
   return (
     <div>
